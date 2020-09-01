@@ -7,6 +7,13 @@ fun main() {
         3. Salir
     """.trimIndent()
     println(menu)
+
+    val listaDeIngredientes = listOf<String>("Agua","Leche","Carne","Verduras","Frutas","Cereal","Huevos","Aceite")
+    /*for (i in listaDeIngredientes){
+        println(i)
+    }
+    */
+
     do {
     val response:String? = readLine()
         if (response.equals("1")){
